@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-09T14:05:09 IST" name="Default suite" finished-at="2024-11-09T14:06:14 IST" duration-ms="65792">
+    <groups>
+    </groups>
+    <test started-at="2024-11-09T14:05:09 IST" name="Default test" finished-at="2024-11-09T14:06:14 IST" duration-ms="65792">
+      <class name="loginTestCase.Login">
+        <test-method is-config="true" signature="Beforetest()[pri:0, instance:loginTestCase.Login@5a56cdac]" started-at="2024-11-09T14:05:09 IST" name="Beforetest" finished-at="2024-11-09T14:05:12 IST" duration-ms="2907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method signature="LoginWithCorrectValues(java.lang.String,java.lang.String)[pri:0, instance:loginTestCase.Login@5a56cdac]" started-at="2024-11-09T14:05:12 IST" name="LoginWithCorrectValues" data-provider="LoginData" finished-at="2024-11-09T14:05:27 IST" duration-ms="15195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectValues -->
+        <test-method signature="LoginWithCorrectValues(java.lang.String,java.lang.String)[pri:0, instance:loginTestCase.Login@5a56cdac]" started-at="2024-11-09T14:05:27 IST" name="LoginWithCorrectValues" data-provider="LoginData" finished-at="2024-11-09T14:05:41 IST" duration-ms="13961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mani123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectValues -->
+        <test-method signature="LoginWithCorrectValues(java.lang.String,java.lang.String)[pri:0, instance:loginTestCase.Login@5a56cdac]" started-at="2024-11-09T14:05:41 IST" name="LoginWithCorrectValues" data-provider="LoginData" finished-at="2024-11-09T14:05:57 IST" duration-ms="15732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectValues -->
+        <test-method signature="LoginWithCorrectValues(java.lang.String,java.lang.String)[pri:0, instance:loginTestCase.Login@5a56cdac]" started-at="2024-11-09T14:05:57 IST" name="LoginWithCorrectValues" data-provider="LoginData" finished-at="2024-11-09T14:06:13 IST" duration-ms="16266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mani123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectValues -->
+        <test-method is-config="true" signature="Aftertest()[pri:0, instance:loginTestCase.Login@5a56cdac]" started-at="2024-11-09T14:06:13 IST" name="Aftertest" finished-at="2024-11-09T14:06:14 IST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+      </class> <!-- loginTestCase.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
